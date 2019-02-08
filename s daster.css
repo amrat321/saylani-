@@ -1,0 +1,421 @@
+#header-div1{
+    background-color: rgb(113, 162, 21);
+    height: 40px; 
+
+}
+
+#header-usa{
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-weight: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 130px;
+    padding-top: 11px; 
+}
+#header-usa:hover{
+    color: rgb(131, 195, 62);
+
+}
+#header-div2{
+    margin-top: 10px;
+    height: 130px;
+    
+}
+#head-saylani-img{
+    margin-left: 80px;	
+}
+#head-saylani-img:hover{
+    opacity: .7;
+
+
+}
+#head-donate-img{
+    margin-right: 100px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+#head-donate-img:hover{
+    opacity: .7;
+    content: url(pic/banner2.jpg);
+
+}
+/* Nav-bar */
+#container{
+    margin-left: 200px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#a1{
+    height: 52px;
+    background-color: #316dc3;
+}
+#container{
+    margin-left: 300px
+}
+
+#container ul{
+list-style: none;
+font-weight: bold;
+}
+#container ul li{
+    background-color:rgba(49, 109, 195, 1.0);
+    width: 150px;
+    
+    text-align: center;
+    float: left;
+    line-height: 50px;
+    color:white;
+    font-size: 12px;
+    position: relative;
+    
+}
+#container ul .C:hover{
+    background-color: #71a215;
+    
+    
+}
+#container ul .H:hover{
+    background-color: #72a9f8;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#container ul .H a{
+    font-size: 10px;
+    line-height: 30px;
+    word-spacing: .15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+#container ul ul{
+    display: none;
+}
+#container ul li:hover > ul{
+    display: block;
+}
+#container ul ul ul{
+    margin-left: 150px;
+    top: 0px;
+    position: absolute;   
+       
+}
+.H{
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+/* end- Nav-bar*/
+
+
+/*  Start of Marque   */
+
+#span-latest{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 80px;
+    vertical-align: middle;
+}
+.arrow-pic:hover{
+        opacity: 0.7;
+        vertical-align: text-top;
+}
+.marque-ul{
+    position: relative;
+    list-style-type: none;
+    display: inline;
+
+}
+.marque-link{
+    padding-top: 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.marque-link:hover{
+    text-decoration: none;
+    color: red;
+    
+}
+.marque-img{
+
+    margin-left: 30px;
+}
+#header-div5{
+    display: inline-block;
+    background-color: rgb(249, 249, 249);
+    padding-bottom: 5px;
+    border: 3px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-image: url("pic/color_line1.png") 11 11 11 11 repeat;
+}
+/*  End of Marque   */
+/*Middle part div1-start*/
+#column{
+
+    margin-top: -1287px;
+    margin-left: 900px;
+
+}
+#search-span{
+    font-size: 22px;
+    color:rgb(138, 195, 62);
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+
+}
+#search-span1{
+    padding-right: 140px;  
+    font-size: 22px; 
+    letter-spacing: -2px;
+}
+#mid-search{
+    font-size: 20px;
+    width: 210px;
+    height: 40px;
+}
+#course-span{
+  
+    font-size: 26px;
+    color:rgb(138, 195, 62);
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+}
+#course-span1{
+    padding-right: 110px;  
+    font-size: 27px; 
+}
+#entry-img:hover{
+    opacity: 0.5;
+
+}
+
+/* middle-part div-1 -end */
+
+
+/* middle-part div-2 -start */
+#column1{
+     padding: 12px;
+     margin-top: 40px;
+     margin-left: 100px;
+     height: 1240px;
+     width: 800px;
+     border: 1px solid lightgray;
+     margin-bottom: 50px;
+}
+#div2-h5{
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+}
+#link-16-july{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    background-color:red;
+    text-decoration: none;
+    padding: 5px;
+    cursor: text;
+}
+#link-image{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    background-color: green;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+#link-image1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    background-color: green;
+    text-decoration: none;
+    padding: 5px;
+
+}
+#para-1{
+    padding-left: 10px;
+    color:black;
+    font-size: 18px;
+    margin-top: 12px;
+}
+#span-black{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    background-color:#444;
+    text-decoration: none;
+    padding: 5px;
+    width: 40px;
+    height: 15px;
+    background-color: #444;
+}
+#last-p{
+    text-align: center;
+    font-size: 18px;
+}
+
+ 
+ 
+ 
+/* middle-part div-2 -end */
+
+
+/*Footer Part */
+.flex-container {
+    display: flex;
+    height: 25pc;
+    background-color: rgb(2, 115, 185);
+    border: 2px solid black;
+    border-image: url("pic/color_line.png") 11 11 11 11 repeat;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+#about{
+    margin-left: 200px;
+    color: rgb(159, 196, 41);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+#twit{
+    color: rgb(159, 196, 41);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+#our{
+    color: rgb(159, 196, 41);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.us{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+#saylani-img1{
+    margin-left: 200px;
+}
+#head-sp{
+   display: inline-block;
+   margin-left: 10px;
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+}
+
+#glyph-div{
+    margin-left: 200px;
+    display: inline-block;
+  
+}
+#map-icon {
+    vertical-align: top;
+    line-height: -30px;
+    color: white;
+   font-size: 30px;
+  
+}
+#map-icon:hover{
+    color: rgb(159, 196, 41);
+}
+#map-icon1{
+    vertical-align: top;
+    color: white;
+   font-size: 20px;
+
+}
+#map-icon1:hover{
+    color: rgb(159, 196, 41);
+}
+#map-icon3{
+    vertical-align: top;
+    color: white;
+   font-size: 20px;
+}
+#map-icon3:hover{
+    color: rgb(159, 196, 41);
+}
+#map-icon4{
+    vertical-align: top;
+    color: white;
+   font-size: 20px;
+}
+#map-icon4:hover{
+    color: rgb(159, 196, 41);
+}
+.link1:hover{
+    opacity: 0.7;
+
+}
+#div-box{
+    margin-left: 80px;
+}
+.div-foot{
+    margin-top: 20px;
+}
+#div3{
+    margin-left: 100px;
+   
+}
+#twit-but{
+    background-color: rgb(27, 149, 224);
+    font-size: 16px;
+    color: white;
+    border: 1px solid rgb(27, 149, 224);
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+}
+#last-div{
+    background-color: rgb(159, 196, 41);
+    height: 100px;
+}
+#div-all{
+    display: inline;
+  margin-left: 550px;
+ 
+}
+#last-say{
+color: white;
+font-weight: bold;
+font-size: 13px;
+}
+
+/*Footer Part End/*

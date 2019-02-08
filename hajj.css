@@ -1,0 +1,276 @@
+#header-div1{
+    background-color: rgb(113, 162, 21);
+    height: 40px; 
+
+}
+
+#header-usa{
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-weight: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 130px;
+    padding-top: 11px; 
+}
+#header-usa:hover{
+    color: rgb(131, 195, 62);
+
+}
+#header-div2{
+    margin-top: 10px;
+    height: 130px;
+    
+}
+#head-saylani-img{
+    margin-left: 80px;	
+}
+#head-saylani-img:hover{
+    opacity: .7;
+
+
+}
+#head-donate-img{
+    margin-right: 100px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+#head-donate-img:hover{
+    opacity: .7;
+    content: url(pic/banner2.jpg);
+
+}
+/* Nav-bar */
+#container{
+    margin-left: 200px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#a1{
+    height: 52px;
+    background-color: #316dc3;
+}
+#container{
+    margin-left: 300px
+}
+
+#container ul{
+list-style: none;
+font-weight: bold;
+}
+#container ul li{
+    background-color:rgba(49, 109, 195, 1.0);
+    width: 150px;
+    text-align: center;
+    float: left;
+    line-height: 50px;
+    color:white;
+    font-size: 12px;
+    position: relative;
+    
+}
+#container ul .C:hover{
+    background-color: #71a215;
+    
+    
+}
+#container ul .H:hover{
+    background-color: #72a9f8;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#container ul .H a{
+    font-size: 10px;
+    line-height: 30px;
+    word-spacing: .15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+#container ul ul{
+    display: none;
+}
+#container ul li:hover > ul{
+    display: block;
+}
+#container ul ul ul{
+    margin-left: 150px;
+    top: 0px;
+    position: absolute;   
+       
+}
+.H{
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+/* end- Nav-bar*/
+
+
+#span-latest{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 80px;
+    vertical-align: middle;
+}
+.arrow-pic:hover{
+        opacity: 0.7;
+        vertical-align: text-top;
+}
+.marque-ul{
+    position: relative;
+    list-style-type: none;
+    display: inline;
+
+}
+.marque-link{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.marque-link:hover{
+    text-decoration: none;
+    color: red;
+    
+}
+.marque-img{
+    margin-left: 30px;
+}
+#header-div5{
+    display: inline-block;
+    background-color: rgb(249, 249, 249);
+    padding-bottom: 5px;
+    border: 5px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-image: url("pic/color_line1.png") 11 11 11 11 repeat;
+}
+#ithead{
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 20px 20px 20px 20px;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+}
+#it-span{
+    font-weight: 10px;
+    font-family: fantasy;
+    font-size: 15px
+    
+    
+}
+#it-span1{
+
+}
+#span-btn{
+    font-family: fantasy;
+    font-size: 10px;
+    background-color: rgb(241, 77, 77);
+    padding: 3px 6px 3px 6px;
+    border: 1px solid rgb(241, 77, 77);
+    border-radius: 3px;
+    color: white;
+    
+}
+#span-btn1{
+    font-family: fantasy;
+    font-size: 10px;
+    background-color: rgb(168, 224, 0);
+    padding: 3px 6px 3px 6px;
+    border: 1px solid rgb(168, 224, 0);
+    border-radius: 3px;
+    color: white;
+}
+#span-btn2{
+    font-family: fantasy;
+    font-size: 10px;
+    background-color: rgb(68, 68, 68);
+    padding: 3px 6px 3px 6px;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 3px;
+    color: white;
+}
+#lab-img{
+    opacity: 0.8;
+}
+#span-h5{
+    text-align: center;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 78, 115);
+}
+#h41{
+
+}
+#p2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 78, 115); 
+    font-size: 15px
+}
+#clicknow{
+    text-decoration: none;
+    color: red;
+    font-size: 13px;
+}
+/*  div-search start   */
+#midle{
+    display: inline;
+    float: right;
+    
+}
+#search-span{
+    font-size: 22px;
+    color:rgb(138, 195, 62);
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+
+}
+#search-span1{
+    padding-right: 140px;  
+    font-size: 22px; 
+    letter-spacing: -2px;
+}
+#mid-search{
+    font-size: 24px;
+    width: 210px;
+    height: 40px;
+}
+#course-span{
+  
+    font-size: 26px;
+    color:rgb(138, 195, 62);
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+}
+#course-span1{
+    padding-right: 90px;  
+    font-size: 27px; 
+}
+#column{
+    margin-top: 37px;
+    margin-right: 100px;
+}
+#div-img:hover{
+    opacity: 0.4;
+}
+/*div search end*/

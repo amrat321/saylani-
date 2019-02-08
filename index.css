@@ -1,0 +1,757 @@
+#header-div1{
+    background-color: rgb(113, 162, 21);
+    height: 40px; 
+
+}
+
+#header-usa{
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    font-weight: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin-right: 130px;
+    padding-top: 11px; 
+}
+#header-usa:hover{
+    color: rgb(131, 195, 62);
+
+}
+#header-div2{
+    margin-top: 10px;
+    height: 130px;
+    
+}
+#head-saylani-img{
+    margin-left: 80px;	
+}
+#head-saylani-img:hover{
+    opacity: .7;
+
+
+}
+#head-donate-img{
+    margin-right: 100px;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+#head-donate-img:hover{
+    opacity: .7;
+    content: url(../pic/banner2.jpg);
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Nav-bar setting Start */
+#container{
+    margin-left: 200px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#a1{
+    height: 52px;
+    background-color: #316dc3;
+}
+#container{
+    margin-left: 300px
+}
+
+#container ul{
+list-style: none;
+font-weight: bold;
+}
+#container ul li{
+    background-color:rgba(49, 109, 195, 1.0);
+    width: 150px;
+    
+    text-align: center;
+    float: left;
+    line-height: 50px;
+    color:white;
+    font-size: 12px;
+    position: relative;
+    
+}
+#container ul .C:hover{
+    background-color: #71a215;
+    
+    
+}
+#container ul .H:hover{
+    background-color: #72a9f8;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#container ul .H a{
+    font-size: 10px;
+    line-height: 30px;
+    word-spacing: .15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+#container ul ul{
+    display: none;
+}
+#container ul li:hover > ul{
+    display: block;
+}
+#container ul ul ul{
+    margin-left: 150px;
+    top: 0px;
+    position: absolute;   
+       
+}
+.H{
+    position: absolute;
+    z-index: 10;
+}
+.tex{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.text:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+
+
+
+
+
+ 
+/*  Nav-bar Seeting End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    Marquee seeting-Start  */
+#span-latest{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 80px;
+    vertical-align: middle;
+}
+.arrow-pic:hover{
+        opacity: 0.7;
+        vertical-align: middle;
+}
+.marque-ul{
+    list-style-type: none;
+    display: inline;
+
+}
+.marque-link{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.marque-link:hover{
+    text-decoration: none;
+    color: red;
+    
+}
+.marque-img{
+    margin-left: 30px;
+}
+#header-div5{
+    background-color: rgb(249, 249, 249);
+    padding-bottom: 5px;
+    border: 5px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-image: url("pic/color_line1.png") 11 11 11 11 stretch;
+}
+
+
+/*    Marquee seeting-Stop  */
+.mySlides {display:none;
+    margin-left: 50px;
+
+}
+
+
+#search-span{
+    font-size: 22px;
+    color:rgb(138, 195, 62);
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+
+}
+#search-span1{
+    padding-right: 140px;  
+    font-size: 22px; 
+    letter-spacing: -2px;
+}
+#mid-search{
+    font-size: 24px;
+    width: 210px;
+    height: 40px;
+}
+#course-span{
+  
+    font-size: 26px;
+    color:rgb(138, 195, 62);
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+}
+#course-span1{
+    padding-right: 110px;  
+    font-size: 27px; 
+}
+#card-img{
+    margin-left: 15px;
+    width: 650px !important;
+    height: 516px;
+}
+#card-div{
+    border-bottom: 5px solid;
+    border-bottom-color:rgb(49, 109, 195);
+}
+#current-span{
+    color:rgb(138, 195, 62);
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+#project-span{
+    color: rgb(2, 115, 185);
+    font-size: 25px;
+    font-weight: bolder;
+}
+#card-img1{
+    vertical-align: bottom;
+    
+}
+#card-img1:hover {
+    
+    opacity: .7;
+    height: 400px;
+    transform: scale(1.03);
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(30deg);
+   
+   
+     
+    
+ }
+
+
+.card-but{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    background-color: green;
+    text-decoration: none;
+    padding: 5px;
+   
+}
+.card-but:hover{
+    text-decoration: none;
+    color: white;
+}
+#subcribe-span{
+    margin-left: 25px;
+    font-size: 27px;
+    color:rgb(138, 195, 62);
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+}
+#sub-span1{
+    padding-right: 110px;
+}
+#email-input{
+    margin-left: 50px;
+    padding-left:10px;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    background-color:rgb(237, 237, 237);
+}
+#submit-but{
+    background-color: rgb(159, 196, 41);
+    color: white;
+    border: 2px outset rgb(221, 221, 221);
+    box-shadow: 1px 3px 3px 0px black;
+    padding: 7px;
+    width: 150px;
+    margin-left: 90px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 70px;
+    cursor: hand;
+}
+
+
+#col-div-support{
+    margin-left: 29px;
+
+}
+#support-sp{
+    color:rgb(138, 195, 62);
+    font-size: 24px;
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+}
+#saylani-sp{
+    padding-right: 15px;
+    color: rgb(2, 115, 185);
+    font-size: 24px;
+    font-weight: bolder;
+    border-top: 3px solid lightgray;
+    border-bottom:  3px solid lightgray;
+
+}
+.column-div{
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+.for{
+    color:  rgb(159, 196, 41);
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 5px;
+}
+.card-link{
+    text-decoration: none;
+    color: rgb(2, 115, 185);
+    font-weight: bold;
+    font-size: 13px;
+    word-spacing: -1px;
+    letter-spacing: 0px;
+}
+.card-link:hover{
+    border-bottom: 1px solid rgb(2, 115, 185);
+    transform: scale(1.2);
+}
+.for-img:hover{
+    opacity: .7;
+    height: 100px;
+    transform: scale(0.3);
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(30deg);
+   
+}
+#imagemid-div{
+    display: inline-block;  
+    margin-top: 20px;
+    margin-left: 14px;
+}
+#para-1{
+    display: inline-block;
+    width:170px;
+    line-height: 10px;
+}
+#para-2{
+    display: inline-block;
+    width:170px;
+    line-height: 10px;
+}
+
+
+
+#imagediv-1{
+    vertical-align: top;
+}
+#imagediv-1:hover{
+    opacity: .7;
+    height: 100px;
+    transform: scale(0.3);
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(30deg);
+}
+#imagediv-2{
+    vertical-align:top;
+    margin-top: 10px;
+}
+#imagediv-2:hover{
+    opacity: .7;
+    height: 100px;
+    transform: scale(0.3);
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(30deg);
+}
+.link-text{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: justify;
+    line-height: -10px;
+
+}
+.link-text:hover{
+    color: black;
+}
+
+
+.button{
+  
+    border: 2px solid rgb(2, 115, 185);
+    background-color: rgb(2, 115, 185);
+    color: white;
+    font-weight: bold;
+    font-size: 8px;
+    word-spacing: 0px;
+    padding: 4px;
+
+}
+.button:hover{
+    text-decoration: none;
+    background-color: rgb(2, 115, 185);
+    color: white;
+    font-weight: bold;
+    font-size: 8px;
+    word-spacing: 0px;
+    padding: 4px;  
+    cursor: text; 
+}
+
+.row{
+    
+    height: 1200px;
+    width: 1230px;
+}
+
+#Saylani-ser-div{
+    margin-top: 20px;
+    margin-left: 14px;
+    height: 600px;
+    width: 690px;
+   
+}
+#saylani-sr{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(2, 115, 185);
+
+}
+#saylani-ser{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(159, 196, 41);
+    
+
+}
+.btn2{
+    margin-left: 390px !important;
+   
+}
+.arrow-pic2{
+    border: 1px solid gray !important;
+
+}
+#saylani-ser:hover{
+    text-decoration: none;
+}
+#saylani-service{
+   
+    font-size: 16px;
+    width: 90px;
+    color: white;
+    padding-right: 435px;
+    padding-left: 9px;
+    padding-bottom: 2px;
+    border-bottom: 3px solid  rgb(159, 196, 41);
+    background-color: #444444;
+  
+}
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+
+
+.container {
+    position: relative;
+
+}
+
+
+.container .btn {
+    position: absolute;
+    top: 115px;
+    left: 40px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+    border: none;
+    cursor: text !important;
+    background-color: rgb(159, 196, 41);
+    
+    
+  
+}
+#cont.btn {
+    position: absolute;
+    top: 135px;
+    left: 210px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+    border: none;
+    cursor: text;
+    background-color: rgb(159, 196, 41);
+    
+  
+}
+#but1.btn{
+    position: absolute;
+    left: 370px;
+    top: 110px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+    border: none;
+    cursor: text;
+    background-color: rgb(159, 196, 41);
+    
+}
+#but2.btn{
+    position: absolute;
+    left: 520px;
+    top: -70px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+    border: none;
+    cursor: text;
+    background-color: rgb(159, 196, 41);
+    
+}
+.Conta-images:hover{
+    opacity: .7;
+    height: 100px;
+    transform: scale(0.3);
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(30deg);
+
+}
+/*Footer Part */
+.flex-container {
+    display: flex;
+    height: 25pc;
+    background-color: rgb(2, 115, 185);
+    border: 2px solid black;
+    border-image: url("pic/color_line.png") 11 11 11 11 repeat;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+#about{
+    margin-left: 200px;
+    color: rgb(159, 196, 41);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+#twit{
+    color: rgb(159, 196, 41);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+#our{
+    color: rgb(159, 196, 41);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.us{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+#saylani-img1{
+    margin-left: 200px;
+}
+#head-sp{
+   display: inline-block;
+   margin-left: 10px;
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+}
+
+#glyph-div{
+    margin-left: 200px;
+    display: inline-block;
+  
+}
+#map-icon {
+    vertical-align: top;
+    line-height: -30px;
+    color: white;
+   font-size: 30px;
+  
+}
+#map-icon:hover{
+    color: rgb(159, 196, 41);
+}
+#map-icon1{
+    vertical-align: top;
+    color: white;
+   font-size: 20px;
+
+}
+#map-icon1:hover{
+    color: rgb(159, 196, 41);
+}
+#map-icon3{
+    vertical-align: top;
+    color: white;
+   font-size: 20px;
+}
+#map-icon3:hover{
+    color: rgb(159, 196, 41);
+}
+#map-icon4{
+    vertical-align: top;
+    color: white;
+   font-size: 20px;
+}
+#map-icon4:hover{
+    color: rgb(159, 196, 41);
+}
+.link1:hover{
+    opacity: 0.7;
+
+}
+#div-box{
+    margin-left: 80px;
+}
+.div-foot{
+    margin-top: 20px;
+}
+#div3{
+    margin-left: 100px;
+   
+}
+#twit-but{
+    background-color: rgb(27, 149, 224);
+    font-size: 16px;
+    color: white;
+    border: 1px solid rgb(27, 149, 224);
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+}
+#last-div{
+    background-color: rgb(159, 196, 41);
+    height: 100px;
+}
+#div-all{
+    display: inline;
+  margin-left: 550px;
+ 
+}
+#last-say{
+color: white;
+font-weight: bold;
+font-size: 13px;
+}
+
